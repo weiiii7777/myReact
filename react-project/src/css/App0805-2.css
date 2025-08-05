@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color:blue;
+  text-decoration:none;
+}
+body{
+  background-color:#e7e6e6;
+}
+.wrap{
+  width: 960px;
+  margin:0 auto;
+  background-color:#ffffff;
+  padding: 50px;
+}
+img{
+  width:100%;
+}
+figure{
+  /* border:1px solid red; */
+  margin-bottom: 20px;
+}
+figcaption{
+  font-size: 12px;
+  color: antiquewhite;
+}
+p{
+  margin:20px 0;
+}
