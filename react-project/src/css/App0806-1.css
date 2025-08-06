@@ -1,0 +1,56 @@
+* {
+    margin: 50;
+    padding: 0;
+}
+
+.card {
+    width: 250px;
+    margin: 10px;
+    transition:all .3s;
+}
+.card:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+img {
+    width: 100%;
+    height: 400px;       /* 統一高度 */
+    object-fit: cover;   /* 裁切不壓縮、不變形 */
+    display: block;      /* 避免底部留空（空白行） */
+}
+
+
+
+.card-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #ba8f56;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    /* 轉成區塊元素 只有超連結(行內元素)要這樣做 這樣才可以設定寬高 bottom不用 */
+    text-align: center;
+}
+
+.card-text {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.container {
+    /* width: 960px; */
+    display: flex;
+    justify-content: center;
+}
