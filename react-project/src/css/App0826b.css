@@ -1,0 +1,17 @@
+/* .wrap{
+
+} */
+
+.slide{
+    max-width: 100vw;
+    height:300px;
+    margin:auto;
+}
+
+.slideImg{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(./images/p3.jpg); */
+    /* background-color: `url(${slides[currentIndex].url})`; */
+    background-size: cover;
+}
