@@ -3,9 +3,10 @@ import React, { useContext, useState } from 'react'
 const App = () => {
     // 建立一個空的共用區(可以跨元件使用)
     const Context = React.createContext();
-    // 建立一個按鈕控制變數
-    const [signedIn, setSignedIn]=useState(false)
+    // 建立登入鈕的控制
+    const [signedIn, setSignedIn]=useState(false);
     // 建立使用者變數
+    const [username, setUsername] = useState('demo');
 
     // 建立一個Nav元件
     const Nav =()=>{
